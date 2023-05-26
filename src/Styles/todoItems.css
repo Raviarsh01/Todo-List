@@ -1,0 +1,78 @@
+.main-div{
+    width: 100%;
+    height:100vh;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .center-div{
+    width: 25%;
+    height: 80vh;
+    background-color:white;
+    box-shadow:5px 5px 20px -5px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow:hidden;
+ }
+ h1{
+    color:rgb(179, 104, 7);
+    background-color:antiquewhite;
+    padding:6px 0 2px 0;
+    margin-bottom:10px;
+ }
+ input{
+    text-align:center;
+    height: 30px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width:60%;
+    border-bottom: 2px solid rgb(179, 104, 7); 
+ }
+
+ .button-1{
+    min-height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:rgb(243, 193, 129);
+    color:white;
+    font-size: 40px;
+    border:none;
+    margin-left: 10px;
+ }
+ .button-1:hover{
+    background-color:rgb(179, 104, 7);
+ }
+ ol{
+    margin-top:30px;
+ }
+ ol li{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+    color:rgb(179, 104, 7);
+    text-transform: capitalize;
+    padding-top: 5px;
+    
+ }
+
+ @media (max-width:760px){
+    .center-div{
+        width: 55%;
+    }
+    .todo-style .fa-times{
+        margin:0 15px 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin-left: 5px;
+        min-height: 40px;
+        width:40px;
+        font-size: 30px;
+    }
+ }

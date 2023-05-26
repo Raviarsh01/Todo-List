@@ -1,0 +1,23 @@
+.todo-style{
+    display:flex;
+    
+ }
+ .button-2{
+    height:auto;
+    width: 12px;
+    padding:2px;
+    border-radius:5px;
+    background-color:rgb(243, 193, 129);
+    color:white;
+    font-size: 15px;
+    border:none;
+    outline:none;
+    margin: 8px;
+
+ }
+ .button-2:hover{
+    background-color:red;
+ }
+ 
+ 
+
